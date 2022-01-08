@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:wght@700&display=swap');
+
+.words{
+	text-align: center;
+}
+
+#wrapper{
+	display: flex;
+	justify-items: stretch;
+}
+
+.timer{
+	display: inline-flex;
+	width: 50%;
+	height: 50px;
+	border-radius: .5em;
+	background-color: #eee;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 20px;
+	align: center;
+}
+
+.pairs-container{
+	width: 70%;
+}
+
+.pair{
+	display: inline-block;
+	background-color: #eee;
+	margin: 20px;
+	padding: 10px;
+	border-radius: .5em;
+	height: 100px;
+	width: 100px;
+	vertical-align: center;
+	text-align: center;
+	line-height: 100px;
+	color: black;
+	font-family: 'Poppins';
+	font-weight: bold;
+
+}
+
+.pair span {
+	line-height: 1.5;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.id{
+	font-size: 25px;
+	font-weight: bold;
+}
+.name{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Poppins'
+}
+
+/**/
+
+.question{
+	display: flex;
+	justify-content: center;
+}
+
+.text-question{
+	font-family: 'Pangolin', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.option{
+	display: inline-flex;
+	width: 400px;
+	height: 20px;
+	border: 1px gray solid;
+	border-radius: .2em;
+	margin: 10px;
+	box-shadow: 5px 5px 3px #eee;
+	align-items: center;
+	padding: 10px;
+	font-family: 'Pangolin', sans-serif;
+	transition: .2s;
+	text-align: left;
+	cursor: pointer;
+	font-size: 18pt;
+	font-weight: 900;
+}
+.option:hover{
+	margin-left: 30px;
+}
+
+.option-red{
+	background-color: red;
+}
+
+.option-green{
+	background-color: #41e62d;
+}
+
+.winner-screen{
+	text-align: center;
+}
+
+.finish-link{
+	display: inline-block;
+	border: 2px gray solid;
+	background-color: #eee;
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .2s;
+
+}
+
+.finish-link:hover{
+	
+	color: gray;
+	
+}

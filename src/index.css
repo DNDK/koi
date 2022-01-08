@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	display: inline-flex;
+	background: linear-gradient(to right, #3969d8, #3edc0b);
+	color: white;
+	font-size: 30pt;
+	padding: 30px;
+	border-bottom-right-radius: .5em;
+	border-bottom-left-radius: .5em;
+	font-family: 'Rubik', sans-serif;
+}
+
+.games-list{
+	display: flex;
+	justify-content: center;	
+}
+
+.game-link{
+	/*border: 1px black solid;*/
+	margin: 30px;
+	padding: 10px;
+	border-radius: .5em;
+	width: 30%;
+	display: inline-flex;
+	justify-content: center;
+	transition: .3s;
+}
+
+.game-link img{
+	width: auto;
+	height: 310px;
+}
+
+.game-link:hover{
+	transform: scale(1.05);
+}
